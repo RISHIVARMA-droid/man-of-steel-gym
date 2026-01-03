@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Man of Steel Gym</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+  <nav class="navbar">
+  <div class="logo">MAN OF STEEL 💪</div>
+
+  <div class="menu-toggle" id="menuToggle">
+    ☰
+  </div>
+
+  <ul class="nav-links" id="navLinks">
+  <li><a href="#home" data-section="home">Home</a></li>
+  <li><a href="#programs" data-section="programs">Programs</a></li>
+  <li><a href="#trainers" data-section="trainers">Trainers</a></li>
+  <li><a href="#pricing" data-section="pricing">Pricing</a></li>
+  <li><a href="#contact-form" data-section="contact-form">Contact</a></li>
+</ul>
+
+</nav>
+
+
+
+  <!-- HERO -->
+  <section class="hero parallax" id="home">
+
+    <div class="hero-content">
+      <h1>MAN OF STEEL</h1>
+      <p>Build Strength. Stay Consistent.</p>
+      <button class="btn">Join Now</button>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section">
+    <h2>Why Man of Steel?</h2>
+    <p>
+      Certified trainers, modern equipment, and a focused environment
+      to help you become stronger every day.
+    </p>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section class="programs" id="programs">
+
+    <h2 class="reveal">Our Programs</h2>
+    <div class="cards">
+      <div class="card reveal">Strength Training</div>
+      <div class="card reveal">Cardio Fitness</div>
+      <div class="card reveal">Fat Loss</div>
+      <div class="card reveal">Muscle Gain</div>
+
+    </div>
+  </section>
+
+  <!-- TRAINERS -->
+  <section class="trainers parallax" id="trainers">
+
+    <div class="overlay">
+      <h2>Expert Trainers</h2>
+      <p>Guidance. Discipline. Results.</p>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section" id="pricing">
+
+    <h2 class="reveal">Membership Plans</h2>
+    <div class="pricing">
+      <div class="price-card reveal">
+        <h3>Monthly</h3>
+        <p>₹1,500</p>
+      </div>
+      <div class="price-card best reveal">
+        <h3>Quarterly</h3>
+        <p>₹4,000</p>
+      </div>
+      <div class="price-card reveal">
+        <h3>Yearly</h3>
+        <p>₹14,000</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta parallax">
+    <div class="hero-content">
+      <h2>Start Your Fitness Journey Today</h2>
+      <button class="btn">Book Free Trial</button>
+    </div>
+  </section>
+
+
+  <section class="section" id="contact-form">
+  <h2 class="reveal">Book a Free Trial</h2>
+
+  <form class="contact-form reveal" id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+    <select id="goal" required>
+      <option value="">Your Fitness Goal</option>
+      <option>Fat Loss</option>
+      <option>Muscle Gain</option>
+      <option>Strength Training</option>
+      <option>General Fitness</option>
+    </select>
+    <button type="submit" class="btn">Submit</button>
+    <p class="success-msg" id="successMsg">Thank you! We’ll contact you soon 💪</p>
+  </form>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer id="contact">
+
+    <p>© 2026 Man of Steel Gym</p>
+    <p>📍 Your City | 📞 9XXXXXXXXX</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
